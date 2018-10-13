@@ -9,8 +9,11 @@
 ;; 
 (setenv "PATH" (concat (getenv "PATH") 
 		       ";%USERPROFILE%\\bin"
+                       ";$USERPROFILE/bin"
                        ";C:\\Program Files\\Git"
 		       ";C:\\Program Files (x86)\\Java\\jre1.8.0_151\\bin"))
 
 (setq explicit-shell-file-name "C:\\Program Files\\Git\\bin\\bash.exe")
-;; (setq explicit-bash.exe-args '("--login" "-i"))
+(setq explicit-bash.exe-args '("--login" "-i"))
+
+(add-to-list 'exec-path "C:\\Program Files\\Git\\cmd\\")

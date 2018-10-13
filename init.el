@@ -74,7 +74,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (tide tagedit smex rainbow-delimiters projectile paredit nlinum magit ido-ubiquitous clojure-mode-extra-font-locking cider))))
+    (cider-eval-sexp-fu tide tagedit smex rainbow-delimiters projectile paredit nlinum magit ido-ubiquitous clojure-mode-extra-font-locking cider))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
