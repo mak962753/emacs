@@ -1,1 +1,9 @@
 **/*.el~
+ido.*
+.recentf
+elpa/**
+auto-save-list/**
+.smex*
+projectile-*
+backups/**
+server/**

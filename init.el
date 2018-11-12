@@ -22,7 +22,11 @@
 (defvar inherit-input-method nil) 
 
 (defvar my-packages 
-  '(;; parens editing 
+  '(
+    ;; line numbers (
+    nlinum
+
+    ;; parens editing 
     paredit
     
     ;; key bindings and colors 
@@ -36,7 +40,8 @@
 
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description of ido 
-    ido-ubiquitous
+    ;ido-ubiquitous
+    ido-completing-read+
 
     ;; enhances M-x for easiser exec-n of commands 
     smex
